@@ -11,6 +11,14 @@ class Abc
 {
     public function __construct()
     {
-        echo('ok');
+        echo($this->getName());
+    }
+
+    /**
+     * @return string
+     */
+    private function getName()
+    {
+        return 'Davit';
     }
 }
