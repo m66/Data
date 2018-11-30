@@ -1,0 +1,58 @@
+* { margin: 0; padding: 0; }
+*:focus { outline: none; }
+
+body {
+    background: #eee;
+    padding: 100px 250px;
+}
+.dataInfo {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    min-width: 849px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.addButton {
+    height: 30px;
+    padding: 0 10px;
+    background: white;
+}
+.search {
+    background: transparent;
+    border: none;
+}
+input {
+    height: 26px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.searchButton {
+    position: absolute;
+    top: 56%;
+    right: 33.5%;
+    background: transparent;
+    border: none;
+}
+.searchButton:hover {
+    cursor: pointer;
+}
+.dataTable {
+    height: 200px;
+    width: 100%;
+    overflow-y: scroll;
+    outline: 2px solid;
+}
+#addNew{
+    display: none;
+}
+
+tr:nth-child(even) {background: #CCC}
+
+
+
